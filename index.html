@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="web.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Google Sans Text' rel='stylesheet'>
+
+</head>
+<body>
+    <div id="loginform">
+        <button id="cross" onclick="closelogin()">x</button>
+        <h1>Already signup</h1>
+        <p>Email</p>
+        <input type="email" placeholder="abc@gmail.com">
+        <p>Password</p>
+        <input type="password" placeholder="Your password">
+      <row><button type="submit" >Submit</button><button onclick="signup()">Register</button></row>
+
+    </div>
+    <div id="signup">
+        <button id="cross" onclick="closesignup()">x</button>
+        <h1>Sign up to register</h1>
+        <p>Name</p>
+        <input type="text" placeholder="Your name">
+        <p>Email</p>
+        <input type="email" placeholder="abc@gmail.com">
+        <p>Password</p>
+        <input type="password" placeholder="Your password">
+      <row><button type="submit" >Submit</button><button onclick="login()">login</button></row>
+    </div>
+    <navbar id="navbar"><h1 style="margin-left: 20px;font-family:Google sans text,Arial, Helvetica, sans-serif;font-weight: 500;">Sphere</h1><button id="search" onclick="login()">Login</button><button id="about" onclick="signup()">Sign up</button></navbar>
+    <div id="frontanimation">
+        <div id="backface"></div>
+        <div id="simpleanimation"><h1 id="moving">Explore</h1><h1 id="static">With sphere</h1></div>
+    <div>
+       
+        <h1 id="p1">Welcome to Sphere</h1><h1 id="p2">Discover, Share and Connect</h1>
+        <row><a href="content.html"><button id="start">Explore more</button></a><a href="upload.html" target="_blank"><button id="create">Create</button></a></row></div>
+</div>
+<div id="ch">
+   <h1 Style="font-size: 5vw;font-weight: 600;letter-spacing: 1px;margin: 40px;">Make your day productive by learning something new.</h1>
+ <a href="content.html"><button style="padding:15px;font-size: 20px;color:white;border:0px;background-color: rgb(29, 128, 228);border-radius: 7px;margin-bottom: 50px;">View all articles</button></a>
+ <img src="img1.png" id="chimg"></div>
+    <div id="showsomething">
+   
+            <img src="webimage.avif">
+            <div id="textbb"><h1>"We believe in the power of knowledge and the joy of discovery."</h1>
+            <p>This website is a project created by individual student.</p><button>Learn more</button></div>
+            
+    </div>
+    <div id="events"> <div id="a1"><h1>programming</h1><h1>Innovation</h1><h1>Books</h1><h1>Stories</h1></div>
+    <div id="a2"><h1>explore 🔍</h1><p>create 👓</p><h1>grow 👍🏼</h1> <img></div>
+    <div id="a3"><h1>General</h1><p>Share your stories, articles online and get appreciated</p></div>
+</div>
+    <div id="show">
+        <h1 style="padding:20px;font-weight: 900;animation:ff 10s infinite;border-radius: 30px;margin-bottom: 0px;">Get creative with your articles <h1 style="color:rgb(90, 90, 255);font-size: 50px;">Explore more features</h1></h1>
+      <div id="d1"><img src="img1.avif"><div id="d2"><h1>User-Friendly Interface</h1>
+        <p>Our platform is designed to be intuitive and easy to use, so you can focus on what you do best – writing!</p></div></div>  
+       <div id="d1"><img src="img2.avif"><div id="d2"><h1>Customizable Profiles</h1>
+            <p> Create a personalized profile to showcase your work and attract more readers.</p></div>  </div>
+            <div id="d1"><img src="img3.avif"><div id="d2"><h1>Always get updated</h1>
+                <p> Engage with other writers and readers through join, likes, and shares. Build your network and grow your audience.</p></div> </div> 
+    </div>
+    <footer id="footer"></footer>
+</body>
+</html>
+<script src="content.js"></script>
+<script src="web.js"></script>
