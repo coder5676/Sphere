@@ -2,6 +2,8 @@
 
 Welcome to **Sphere**, a web application where users can upload and read blogs and articles. This README will guide you through the setup and usage of the project.
 
+#This website is fully created by me as a weekend project and some functionalities are still on hold and will be added soon.
+
 ## Table of Contents
 
 - Features: Upload your articles and blogs and read other's
@@ -75,7 +77,7 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ## Contact
 
-If you have any questions or suggestions, feel free to reach out to us at your-email@example.com.
+If you have any questions or suggestions, feel free to reach out to us at abhaipratapanjumaurya@gmail.com
 
 ---
 
