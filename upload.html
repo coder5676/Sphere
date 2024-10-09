@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="upload.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Google Sans Text' rel='stylesheet'>
+   
+
+</head>
+<body id="uploadform">
+   <div id="uploadcnt"><h2 id="uploaded">✓</h2>
+    <button id="ok">Close</button>
+</div> 
+  <button id="cancel">Cancel</button>
+   <button id="guide">Follow Guide</button>
+<h1>Create your thumbnail</h1>
+<label style="margin-left:30px;">Choose a domain : </label>
+<select name="Domain" id="domainselector"><option value="programming">programming</option><option value="innovation">innovation</option><option value="general">general</option></select>
+    <h1>Heading</h1>
+    <input placeholder="Heading must be short." type="text" maxlength="55" id="heading" required>
+    <h1>Title</h1>
+    <input placeholder="Title must explain what are you posting about." type="text" maxlength="100" id="title" required>
+
+    <h1>Image</h1>
+    <input placeholder="Url for your thumbnail image" type="url" id="imageurl" required>
+    <h1 >Create your article</h1>
+    <p style="font-weight:400;margin:30px">The article should contain images and headings, click on helpers below to add these items. They will make your page easy to unerstand and beautiful.</p>
+    <p style="color:dodgerblue;margin-left: 30px;">Follow the tutorial</p>
+    <row><button id="addtext">Normal text</button><button id="addboldtext">Bold text</button><button id="addimage">Image</button>
+    <button style="background-color: rgb(144, 17, 255);" id="undo">↩ Undo</button></row>
+    <textarea id="maincontent" required></textarea>
+    <p style="margin-left: 30px; font-size: 20px;" >PREVIEW </p>
+    <div id="preview"></div>
+    <p style="margin:30px;">The articles will be saved only once.</p>
+    <button id="save">Save</button>
+    
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore.js"></script>
+<script type="module" src="upload.js"></script>

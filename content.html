@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="content.css">
+    <link href='https://fonts.googleapis.com/css?family=Rubik' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Google Sans Text' rel='stylesheet'>
+    <script src="https://kit.fontawesome.com/954e575aaa.js" crossorigin="anonymous"></script>
+
+</head>
+<body >
+    <div id="maincontainer">
+    </div>
+    <div id="maindisplay" >
+    <div id="swipebox" class="swipebox"><a href="upload.html" target="_blank"><button>Upload</button></a></div>
+     <div id="nav2"><div style="display:flex;"><button id="b1" style="font-size: 30px;">≡</button><h1 style="font-size: 25px;font-weight: 1000;color: dodgerblue;margin-right: 40px;">Articles</h1></div><div><a href="index.html"><button id="b2" style="border: 1px solid grey;padding:10px;border-radius: 20px;">Home</button></a><button id="b3"><i class="fa-solid fa-magnifying-glass"></i></button><button><i class="fa-regular fa-user"></i></button></div></div>
+
+    <!----- --->
+    <div id="latest"> 
+        <h1 style="font-size:60px;font-weight:1000;width: 100%;max-width: 370px;margin-left: 30px;color:rgb(46, 45, 45)">Discover the latest blogs and articles.</h1>
+        <div id="doms"><button id="all"><i class="fa-solid fa-magnifying-glass"></i>All</button><button  id="pr"><i class="fa-solid fa-magnifying-glass"></i>Programming</button><button id="ino"><i class="fa-solid fa-magnifying-glass"></i>Innovation</button><button id="gn"><i class="fa-solid fa-magnifying-glass"></i>general</button><button ><i class="fa-solid fa-magnifying-glass"></i>More</button></div>
+      
+
+   </div> 
+   <div id="animationback"> <h2 style="top:10%;left:20%;color:dodgerblue"><i class="fa-regular fa-chess-pawn"></i></h2>
+    <h2 style="top:0;left:20%;color:rgb(11, 195, 127)"><i class="fa-regular fa-face-laugh-beam"></i></h2>
+   <h2 style="top:0;left:20%;color:rgb(255, 152, 73)"><i class="fa-regular fa-keyboard"></i></h2>
+    <h2 style="top:0;left:20%;color:rgb(255, 71, 30)"><i class="fa-regular fa-paper-plane"></i></h2></div>    
+
+  <h1 style="text-align: left;position: absolute;top:470px;left:30px;color:dodgerblue;z-index: -1;border:2px solid grey;padding:10px;border-radius: 30px;">Featured articles</h1>
+  <div id="elements">
+
+</div>
+<h1 style="margin-left: 30px;">Creators you might noticed.</h1>
+
+<div id="creators"><div id="creator"><div id="crimg"></div><h1>Abhai</h1><button>
+    Follow
+</button></div></div>
+<h1  style="margin:30px;">Be a creator </h1>
+    <div id="upload"><h1 style="font-size: 30px;font-weight: 200;color:dodgerblue;margin-left:30px">Share</h1>
+        <h1>Share your stories, knowledge or your findings and insights →</h1>
+      <row><a href="upload.html" target="_blank"><button id="upl" style="color:dodgerblue;margin-left: 30px;border:2px solid grey">Create</button></a>
+        <button id="see">Guide ⨝</button></row>
+    </div></div>
+
+</body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-compat-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-compat-firestore.js"></script>
+
+
+
+
+<script src="content.js" type="module"></script>
